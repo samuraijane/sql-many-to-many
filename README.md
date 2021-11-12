@@ -99,6 +99,16 @@ npx sequelize-cli model:create --name User_Tasks --attributes taskId:integer,use
 
 ```
 
+- Update **/models/index.js**
+
+```
+// old
+const config = require(__dirname + '/../config/config.json')[env];
+
+// new
+const config = require(__dirname + '/../config/config.js')[env];
+```
+
 - Create seed files for each (run each line below separately)
 
 ```
