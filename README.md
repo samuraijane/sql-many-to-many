@@ -2,6 +2,15 @@
 
 This demo shows a many-to-many relationship betweeen Users and Tasks.
 
+## Steps to execute
+
+- `git clone https://github.com/samuraijane/sql-many-to-many.git`
+- `cd sql-many-to-many`
+- `npm i`
+- be sure that your postgresql server is running
+- `npm run db:setup`
+- `node ./utils/query.js`
+
 ## Steps to create from scratch
 
 Following this demo from scratch is not necessary but may prove helpful in teaching you more deeply how this works
