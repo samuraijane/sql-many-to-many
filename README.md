@@ -119,7 +119,7 @@ npx sequelize-cli seed:generate --name user-task
 
 - Add data to seed files (WIP)
 - Define associations in **/models/task.js** and **/models/user.js** (WIP)
-- `npm db:setup`
+- `npm run db:setup`
 - `mkdir -p utils/query.js`
 - Add this to **query.js**
 
